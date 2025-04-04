@@ -1,20 +1,19 @@
 @charset "UTF-8";
 
 :root {
-  /* Modern purple/blue color palette */
-  --primary: #6d5dfc;       /* Bright purple */
-  --primary-dark: #5346e0;  /* Darker purple */
-  --secondary: #6c757d;     /* Keep the medium gray */
-  --accent: #36d1dc;        /* Bright blue/cyan */
-  --light: #f8f9fa;         /* Keep light gray/almost white */
-  --dark: #343a40;          /* Keep dark gray/almost black */
-  --white: #ffffff;         /* Pure white */
-  --text: #212529;          /* Keep very dark gray for text */
-  --text-light: #6c757d;    /* Keep medium gray for muted text */
-  --success: #28a745;       /* Keep green */
-  --warning: #ffc107;       /* Keep yellow */
-  --danger: #dc3545;        /* Keep red */
-  --info: #17a2b8;          /* Keep teal */
+  --primary: #6d5dfc;       
+  --primary-dark: #5346e0;  
+  --secondary: #6c757d;     
+  --accent: #36d1dc;        
+  --light: #f8f9fa;         
+  --dark: #343a40;          
+  --white: #ffffff;         
+  --text: #212529;          
+  --text-light: #6c757d;    
+  --success: #28a745;       
+  --warning: #ffc107;       
+  --danger: #dc3545;        
+  --info: #17a2b8;          
 
   --warning: #fed136;
   --danger: #dc3545;
@@ -10089,12 +10088,12 @@ img::-moz-selection {
 
 
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-  color: #6d5dfc; /* Purple */
+  color: #6d5dfc; 
 }
 
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover::after,
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link.active::after {
-  background-color: #6d5dfc; /* Purple */
+  background-color: #6d5dfc; 
 }
 
 #mainNav .navbar-nav .nav-item .nav-link::after {
@@ -10299,22 +10298,19 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   position: relative;
-  overflow: hidden; /* Ensure particles don't cause scrollbars */
-  /* Add gradient overlay to the background */
+  overflow: hidden; 
   background-image: linear-gradient(135deg, rgba(0, 30, 60, 0.7) 0%, rgba(0, 8, 20, 0.6) 100%), url("../assets/img/portfolio/premium_photo-1663040543387-cb7c78c4f012.avif");
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   min-height: 500px;
   display: flex;
   align-items: center;
 }
 
-/* Ensure the container is above the particles */
 header.masthead .container {
   position: relative;
   z-index: 2;
 }
 
-/* Styling for particle effect */
 #particle-js {
   position: absolute;
   width: 100%;
